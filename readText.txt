@@ -1,0 +1,12 @@
+Newly created text file for reference
+<?php 
+$a = 10;
+$b = 15;
+$c = 20;
+$d = $a*$b+$c;
+if($d >= 100){
+echo "New created file";
+} else {
+echo "Already exist";
+}
+?>
