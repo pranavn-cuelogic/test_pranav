@@ -12,3 +12,12 @@ echo "Cant change the value of file";
 echo "Already exist";
 }
 ?>
+
+<script>
+var myName = "John Carter";
+if(myName.length > 8){
+console.log("Name length is "+myName.length);
+} else {
+console.log("Not more than 12);
+}
+</script>
