@@ -6,6 +6,8 @@ $c = 20;
 $d = $a*$b+$c;
 if($d >= 100){
 echo "New created file";
+} elseif($d< 100) {
+echo "Cant change the value of file";
 } else {
 echo "Already exist";
 }
